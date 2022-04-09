@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" href="main.scss" />
+    <title>CV2</title>
+  </head>
+  <body>
+    <div class="cv-box">
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#info">Info</a></li>
+          <li><a href="#social">Social</a></li>
+          <li><a href="#edu">Education</a></li>
+          <li><a href="#lang">Languages</a></li>
+          <li><a href="#work">Experience</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      <!--left section-->
+      <div class="left-section">
+        <div class="profile">
+          <img src="me.jpg" class="profile-img" alt="profile.pic" />
+          <h2 class="name">
+            Dumitru <br />
+            <span>Dinu</span>
+          </h2>
+          <p class="fed">Front End Developer</p>
+        </div>
+        <div class="info-social">
+          <div class="info">
+            <p class="heading" id="info">Info</p>
+            <p class="p1">
+              <span class="span1"> <i class="fas fa-home"></i> </span>Adress
+            </p>
+            <p class="p1">
+              <span class="span1"> <i class="fas fa-phone"></i> </span>0040
+              734307538
+            </p>
+            <p class="p1">
+              <span class="span1"> <i class="fas fa-envelope"></i> </span
+              >mitus1000@yahoo.com
+            </p>
+          </div>
+          <br />
+          <div class="social">
+            <p class="heading" id="social">Social</p>
+            <p class="p1">
+              <span class="span1"> <i class="fa-brands fa-skype"></i> </span
+              ><a href="#">Skype</a>
+            </p>
+            <p class="p1">
+              <span class="span1"> <i class="fa-brands fa-facebook"></i> </span
+              ><a href="#">Facebook</a>
+            </p>
+            <p class="p1">
+              <span class="span1"> <i class="fa-brands fa-instagram"></i> </span
+              ><a href="#">Instagram</a>
+            </p>
+            <p class="p1">
+              <span class="span1"> <i class="fa-brands fa-twitter"></i> </span
+              ><a href="#">Twitter</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--right section-->
+      <div class="right-section">
+        <div class="right-heading">
+          <i class="fas fa-book"></i>
+          <p class="p2" id="edu">Education</p>
+        </div>
+        <div class="clearfix"></div>
+        <div class="lr-box" id="Education">
+          <div class="left">
+            <p class="p4">1995-1999</p>
+            <p class="p4">2021-2022</p>
+          </div>
+          <div class="right">
+            <p class="p5">G.S.I.A. Calarasi High School</p>
+            <p class="p5">
+              Front End Developer Courses <a href="#">Azimut Vision</a>
+            </p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <!--circles-->
+        <p class="p6">Developer Skill's</p>
+        <div class="lr-box circle-container">
+          <div class="dev-skills">
+            <div class="individual">
+              <p class="p6">html</p>
+              <div class="circle-progress circle1" data-circle="1">
+                <div class="progress-value value1" data-value="1">0%</div>
+              </div>
+            </div>
+            <div class="individual">
+              <p class="p6">css/scss</p>
+              <div class="circle-progress circle2" data-circle="2">
+                <div class="progress-value value2" data-value="2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="dev-skills">
+            <div class="individual">
+              <p class="p6">javasript</p>
+              <div class="circle-progress circle3" data-circle="3">
+                <div class="progress-value value3" data-value="3"></div>
+              </div>
+            </div>
+            <div class="individual">
+              <p class="p6">wordpress</p>
+              <div class="circle-progress circle4" data-circle="4">
+                <div class="progress-value value4" data-value="4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right-heading">
+          <i class="fas fa-globe"></i>
+          <p class="p2" id="lang">Languages</p>
+        </div>
+        <div class="lr-box">
+          <div class="left">
+            <p class="p4">Romanian</p>
+            <p class="p4">English 90%</p>
+            <p class="p4">Italian 90%</p>
+            <p class="p4">Spanish 60%</p>
+            <p class="p4">French 50%</p>
+          </div>
+          <div class="right">
+            <p class="p5 rou">Native</p>
+            <div id="progress5" class="p5"></div>
+            <div id="progress6" class="p5"></div>
+            <div id="progress7" class="p5"></div>
+            <div id="progress8" class="p5"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="right-heading">
+          <i class="fas fa-pencil"></i>
+          <p class="p2" id="work">Work Experience</p>
+        </div>
+        <div class="clearfix"></div>
+        <div class="lr-box">
+          <div class="left">
+            <p class="p4">2000-2001</p>
+            <p class="p4">2004-2014</p>
+            <p class="p4">2015-2017</p>
+            <br />
+            <p class="p4">2018-2021</p>
+          </div>
+          <div class="right">
+            <p class="p5">Romanian Military Service</p>
+            <p class="p5">Construction Worker Lucca, Tuscany Italy</p>
+            <p class="p5">Warehouse Operative Tesco Liverpool, UK</p>
+            <p class="p5">Warehouse Operative DHL for Debenhams Shefield; UK</p>
+            <p class="p5">
+              Automation solutions for the management, sorting and tracking of
+              all types of baggage, parcel and postal items of airports,
+              couriers and postal operators.
+            </p>
+            <p class="p5">Operating Sites:</p>
+            <p class="p5">Malpensa Airport, Milan, Italy</p>
+            <p class="p5">Athens International Airport, Athens, Greece</p>
+            <p class="p5">Chronopost Aulnay-sous-Bois, Paris, France</p>
+            <p class="p5">Amazon Garbsen, Hannover, Germany</p>
+            <p class="p5">Geneva Airport, Geneva, Switzerland</p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
