@@ -8,15 +8,9 @@ const progressEnd = [95, 80, 60, 60];
 let speed = 40;
 
 const progress = setInterval(() => {
-  // progressStart++;
-  // console.log(progressStart);
+  
   values.forEach((value, i) => {
-    // i este 0,1,2 ... pana se termmina vals, in cazul nostru 5 valori, ultimul i este 4
-    // circles[0] este progressBar1
-    // progressEnd[0] este progressEndValue1
-    // value este pe rand circleContainer1 , 2, 3..
-    // nu stiu cum se modifica asta acum... progressStart
-    // console.log(progressStart);
+    
     progressStart++;
 
     value.textContent = `${progressEnd[i]}%`;
