@@ -199,8 +199,8 @@
       }
       .lr-box {
         display: flex;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         .dev-skills {
           display: flex;
           
@@ -211,7 +211,7 @@
           .p4 {
             font-size: 16px;
             font-weight: 600;
-            margin: 10px auto;
+            margin: 5px auto;
           }
         }
         .right {
@@ -222,9 +222,6 @@
             color: var(--lightgrey);
             margin: 5px auto;
           }
-          p.p5 {
-            padding: 0 10px;
-          }
           .rou {
             padding-left: 2.8em;
           }
@@ -234,7 +231,7 @@
           border-radius: 13px;
           height: 8px;
           width: 80%;
-          margin: 16px auto;
+          margin: 10px auto;
         }
         #progress5::after {
           content: "";
@@ -250,7 +247,7 @@
           border-radius: 13px;
           height: 8px;
           width: 80%;
-          margin: 20px auto;
+          margin: 10px auto;
         }
         #progress6::after {
           content: "";
@@ -266,7 +263,7 @@
           border-radius: 13px;
           height: 8px;
           width: 80%;
-          margin: 20px auto;
+          margin: 10px auto;
         }
         #progress7::after {
           content: "";
@@ -294,19 +291,17 @@
           animation: french 2s;
         }
       }
-      .s-box {
-        width: 50%;
-        float: left;
-        padding: 20px 20px 20px 0px;
-      }
       .p6 {
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 10px;
         font-weight: 500;
         font-size: 16px;
       }
+      
     }
+    
   }
+  
   @keyframes english {
     0% {
       width: 0%;
@@ -374,25 +369,21 @@
           align-items: center;
           width: 50%;
         } 
-        .lr-box {
-          .left {
-            .p4 {
-              margin-bottom: 1.5rem;
-              padding-bottom: .6rem;
-            }
-            
-          }
-        }
-        
         .left-languages {
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
+          .pwe {
+            margin-left: 0 !important;
+          }
         }
         .right {
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
+          .pwe {
+            margin-left: 0 !important;
+          }
         }   
       }
     } 
