@@ -276,8 +276,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .cv-box .right-section .lr-box .dev-skills {
@@ -294,7 +294,7 @@ a {
 .cv-box .right-section .lr-box .left .p4 {
   font-size: 16px;
   font-weight: 600;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
 .cv-box .right-section .lr-box .right {
@@ -308,10 +308,6 @@ a {
   margin: 5px auto;
 }
 
-.cv-box .right-section .lr-box .right p.p5 {
-  padding: 0 10px;
-}
-
 .cv-box .right-section .lr-box .right .rou {
   padding-left: 2.8em;
 }
@@ -321,7 +317,7 @@ a {
   border-radius: 13px;
   height: 8px;
   width: 80%;
-  margin: 16px auto;
+  margin: 10px auto;
 }
 
 .cv-box .right-section .lr-box #progress5::after {
@@ -340,7 +336,7 @@ a {
   border-radius: 13px;
   height: 8px;
   width: 80%;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .cv-box .right-section .lr-box #progress6::after {
@@ -359,7 +355,7 @@ a {
   border-radius: 13px;
   height: 8px;
   width: 80%;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .cv-box .right-section .lr-box #progress7::after {
@@ -392,14 +388,8 @@ a {
           animation: french 2s;
 }
 
-.cv-box .right-section .s-box {
-  width: 50%;
-  float: left;
-  padding: 20px 20px 20px 0px;
-}
-
 .cv-box .right-section .p6 {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -543,10 +533,6 @@ a {
             align-items: center;
     width: 50%;
   }
-  .cv-box .right-section .lr-box .left .p4 {
-    margin-bottom: 1.5rem;
-    padding-bottom: .6rem;
-  }
   .cv-box .right-section .left-languages {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -559,6 +545,9 @@ a {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
+  .cv-box .right-section .left-languages .pwe {
+    margin-left: 0 !important;
+  }
   .cv-box .right-section .right {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -570,6 +559,9 @@ a {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+  }
+  .cv-box .right-section .right .pwe {
+    margin-left: 0 !important;
   }
 }
 
