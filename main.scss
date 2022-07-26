@@ -1,11 +1,13 @@
 :root {
-    --bgcolor: #beb8ac;
-    --blue: #2fb7fe;
-    --black: #3d3f42;
-    --white: #f4f7ff;
-    --grey: #d8dce4;
-    --lightgrey: #8e9095;
-  }
+  --bgcolor: #beb8ac;
+  --blue: #2fb7fe;
+  --black: #3d3f42;
+  --white: #f4f7ff;
+  --grey: #d8dce4;
+  --lightgrey: #8e9095;
+}
+    
+  
   * {
     margin: 0;
     padding: 0;
@@ -223,7 +225,7 @@
             margin: 5px auto;
           }
           .rou {
-            padding-left: 2.8em;
+            padding-left: 4rem;
           }
         }
         #progress5 {
@@ -296,10 +298,8 @@
         margin-bottom: 10px;
         font-weight: 500;
         font-size: 16px;
-      }
-      
+      } 
     }
-    
   }
   
   @keyframes english {
@@ -384,6 +384,7 @@
           .pwe {
             margin-left: 0 !important;
           }
+          
         }   
       }
     } 
